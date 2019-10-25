@@ -20,7 +20,7 @@ function! OpenTerminal()
   let l:winid = bufwinid(l:bufnr)
 
   exec l:winid . 'wincmd J'
-  exec l:winid . 'resize 10'
+  exec l:winid . 'resize 30'
 endfunc
 
 nnoremap <silent> <Leader>t :call OpenTerminal()<CR>
