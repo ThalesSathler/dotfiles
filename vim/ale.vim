@@ -24,5 +24,6 @@ let g:ale_linters = {
       \ 'python': ['mypy', 'pyls'],
       \ 'javascript': ['tsserver', 'eslint', 'prettier'],
 \}
+let g:ale_javascript_tsserver_use_global = 0
 
 set completeopt=menu,menuone,preview,noselect,noinsert

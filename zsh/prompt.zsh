@@ -83,7 +83,7 @@ antigen bundle zsh-users/zsh-completions src
 antigen apply
 
 POWERLEVEL9K_CUSTOM_ARCHLOGO="archlinux_logo"
-POWERLEVEL9K_ARCHLINUX_LOGO=$''
+POWERLEVEL9K_ARCHLINUX_LOGO=$''
 function archlinux_logo(){
   echo "$(print_icon 'ARCHLINUX_LOGO')"
 }
