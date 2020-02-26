@@ -178,8 +178,6 @@ if executable("ag")
     let g:CtrlSpaceGlobCommand = 'ag -l --nocolor -g ""'
 endif
 
-let test#strategy = "vimterminal"
-
 " Thanks to @denilsonsa (https://github.com/denilsonsa)
 function! Salvar_setKeys()
   "Use Ctrl+S to save
