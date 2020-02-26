@@ -5,3 +5,4 @@ nnoremap <leader>tp :TestSuite<CR>
 
 let test#java#maventest#options = '-B --quiet'
 let test#javascript#jest#options = '--env=node'
+let test#strategy = "vimterminal"
